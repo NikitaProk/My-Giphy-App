@@ -1,4 +1,4 @@
-package com.example.mygiphyapp
+package com.example.mygiphyapp.data
 
 import com.google.gson.annotations.SerializedName
 
@@ -11,9 +11,9 @@ data class DataObject(
 )
 
 data class DataImage(
-    @SerializedName("original") val ogImage: ogImage
+    @SerializedName("original") val ogImage: OgImage
 )
 
-data class ogImage(
+data class OgImage(
     val url : String
 )

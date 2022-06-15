@@ -1,4 +1,4 @@
-package com.example.mygiphyapp
+package com.example.mygiphyapp.data
 
 import retrofit2.http.GET
 
